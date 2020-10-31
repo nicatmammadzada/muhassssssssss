@@ -45,7 +45,12 @@
                                 </div>
                                 <div class="job_overview_header jb_cover">
                                     <div class="row">
-
+                                    <div class="col-lg-12 col-md-6 col-sm-6 col-6">
+                                            <div class="contect_form3">
+                                                <label>isin adi</label>
+                                                <input type="text" name="name" placeholder="seher">
+                                            </div>
+                                        </div>
                                         <div class="col-lg-12 col-md-6 col-sm-6 col-6">
                                             <div class="contect_form3">
                                                 <label>Seher</label>
@@ -84,11 +89,22 @@
                                         </div>
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                                             <div class="contect_form3">
+                                                <label>wirket</label>
+                                                <input type="text" name="name" placeholder="elaqedar wexs">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                            <div class="contect_form3">
                                                 <label>is tecrubesi</label>
                                                 <input type="text" name="name" placeholder="is tecrubesi">
                                             </div>
                                         </div>
-
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                            <div class="contect_form3">
+                                                <label>maas araligi</label>
+                                                <input type="text" name="name" placeholder="is tecrubesi">
+                                            </div>
+                                        </div>
 
 
 

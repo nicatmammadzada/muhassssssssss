@@ -18,7 +18,7 @@
         <div class="panel-heading">
             <h5 class="panel-title">Vakansiyalar</h5>
             <div class="heading-elements">
-                <a href="{{route('admin.product.create')}}"><span class="label label-success">YENİ Product</span></a>
+                <a href="{{route('admin.vacancies.create')}}"><span class="label label-success">YENİ Product</span></a>
             </div>
         </div>
 
@@ -26,11 +26,10 @@
             <thead>
             <tr>
                 <th>No</th>
-                <th>Photo</th>
-                <th>Name,Surname</th>
-                <th>Age</th>
-                <th>email</th>
-                <th>adress</th>
+                <th>Company</th>
+                <th>Employee</th>
+                <th>City</th>
+                <th>phone</th>
                 <th>education</th>
                 <th>experience</th>
                 <th>langs</th>
@@ -43,22 +42,22 @@
             </thead>
             <tbody>
 
-            @if($vacancies->count()>0)
-                @foreach($vacancies as $key=>$vacancy)
-                    <tr {{session()->has('id') &&  $vacancy->id==session('id') ? 'style=background:#38d28f;' : ''}} >
+            @if($items->count()>0)
+                @foreach($items as $key=>$item)
+                    <tr {{session()->has('id') &&  $item->id==session('id') ? 'style=background:#38d28f;' : ''}} >
                         <td>{{++$key}}</td>
 
-                        <td><img src="{{asset('uploads/vacancies/').'/'.$vacancy->photo}}" style="width: 100px;height: 100px; object-fit: contain" alt=""></td>
-                        <td>{{$vacancy->name}},{{$vacancy->surname}}</td>
-                        <td>{{$vacancy->age}}</td>
-                        <td>{{$vacancy->email}}</td>
-                        <td>{{$vacancy->adress}}</td>
-                        <td>{{$vacancy->education}}</td>
-                        <td>{{$vacancy->experience}}</td>
-                        <td>{{$vacancy->langs}}</td>
+                        <td><img src="{{asset('uploads/vacancies/').'/'.$item->photo}}" style="width: 100px;height: 100px; object-fit: contain" alt=""></td>
+                        <td>{{$item->name}},{{$item->surname}}</td>
+                        <td>{{$item->age}}</td>
+                        <td>{{$item->email}}</td>
+                        <td>{{$item->adress}}</td>
+                        <td>{{$item->education}}</td>
+                        <td>{{$item->experience}}</td>
+                        <td>{{$item->langs}}</td>
 
-                        <td>{{$vacancy->aile}}</td>
-                        <td>{{$vacancy->ntl}}</td>
+                        <td>{{$item->aile}}</td>
+                        <td>{{$item->ntl}}</td>
 
 
 {{--                    <td class="text-center">--}}
@@ -69,12 +68,12 @@
 {{--                                </a>--}}
 
 {{--                                <ul class="dropdown-menu dropdown-menu-right">--}}
-{{--                                    <li><a href="{{route('admin.product.edit',$vacancy->id)}}"><i--}}
+{{--                                    <li><a href="{{route('admin.product.edit',$item->id)}}"><i--}}
 {{--                                                class="icon-database-edit2"></i> Yenilə</a></li>--}}
-{{--                                    <li><a href="{{route('admin.product.promo',$vacancy->id)}}"><i--}}
+{{--                                    <li><a href="{{route('admin.product.promo',$item->id)}}"><i--}}
 {{--                                                class="icon-database-edit2"></i> Promokod elave et</a></li>--}}
 {{--                                    <li>--}}
-{{--                                        <a onclick='checkDeleteConfrim("{{route('admin.product.destroy',$vacancy->id)}}")'><i--}}
+{{--                                        <a onclick='checkDeleteConfrim("{{route('admin.product.destroy',$item->id)}}")'><i--}}
 {{--                                                class="icon-database-remove"></i> Sil</a></li>--}}
 {{--                                </ul>--}}
 

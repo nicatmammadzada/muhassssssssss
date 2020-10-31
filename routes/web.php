@@ -270,6 +270,16 @@ Route::group(['prefix' => 'admin', 'namespace' => 'back'], function () {
             Route::get('/remove/{id}', 'CvController@remove')->name('remove');
 
         });
+        Route::group(['prefix' => 'vacancies', 'as' => 'admin.vacancies.'], function () {
+            Route::get('/', 'VacanciesController@index')->name('index');
+            Route::get('/edit/{id}', 'VacanciesController@edit')->name('edit');
+            Route::post('/update/{id}', 'VacanciesController@update')->name('update');
+            Route::get('/show/{uid}', 'VacanciesController@show')->name('show');
+            Route::get('/create', 'VacanciesController@create')->name('create');
+            Route::post('/store/{id}', 'VacanciesController@store')->name('store');
+            Route::get('/remove/{id}', 'VacanciesController@remove')->name('remove');
+
+        });
 
 
         Route::group(['prefix' => 'clients', 'as' => 'admin.client.'], function () {
@@ -285,16 +295,16 @@ Route::group(['prefix' => 'admin', 'namespace' => 'back'], function () {
         });
 
 
-        Route::group(['prefix' => 'vacancies', 'as' => 'admin.vacancies.'], function () {
-            Route::get('/', 'VakancyController@index')->name('index');
-            Route::get('/edit/{id}', 'VakancyController@edit')->name('edit');
-            Route::get('/show/{uid}', 'VakancyController@show')->name('show');
-            Route::post('/create', 'VakancyController@create')->name('create');
-            Route::get('/remove/{id}', 'VakancyController@remove')->name('remove');
-            Route::post('/store/{id}', 'VakancyController@store')->name('store');
-            Route::post('/mail', 'VakancyController@mail')->name('mail');
-            Route::get('/filter', 'VakancyController@filter')->name('filter');
-        });
+        // Route::group(['prefix' => 'vacancies', 'as' => 'admin.vacancies.'], function () {
+        //     Route::get('/', 'VakancyController@index')->name('index');
+        //     Route::get('/edit/{id}', 'VakancyController@edit')->name('edit');
+        //     Route::get('/show/{uid}', 'VakancyController@show')->name('show');
+        //     Route::post('/create', 'VakancyController@create')->name('create');
+        //     Route::get('/remove/{id}', 'VakancyController@remove')->name('remove');
+        //     Route::post('/store/{id}', 'VakancyController@store')->name('store');
+        //     Route::post('/mail', 'VakancyController@mail')->name('mail');
+        //     Route::get('/filter', 'VakancyController@filter')->name('filter');
+        // });
 
 
 

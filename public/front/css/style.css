@@ -1004,7 +1004,7 @@ a:hover {
 }
 .jb_navigation_wrapper{
 	float:left;
-	width:58%;
+	width:55%;
 }
 .mainmenu ul li:hover > .kv_mega_menu{
 	top:100%;
@@ -1074,7 +1074,7 @@ a:hover {
 	display:block;
 }
 .menu_btn_box{
-	width:22%;
+	width:25%;
 	float:right;
 	text-align:center;
 	padding-top:22px;
@@ -2725,7 +2725,7 @@ a:hover {
 .footerNav h5{
 	font-size:20px;
 	text-transform:capitalize;
-	color:#fff;
+	color:#fff !important;
 	font-weight:400;
 	padding-top:10px;
 	padding-bottom:35px;
@@ -2765,7 +2765,7 @@ a:hover {
 	margin-bottom:15px;
 }
 .footer_border_displ ul li a{
-	color:rgba(255, 255, 255, 0.49);
+	color:rgba(255, 255, 255, 0.49) !important;
 }
 .footer_border_displ ul li a i:before{
 	margin-right:14px;
@@ -5528,7 +5528,7 @@ a:hover {
 }
 .index2_footer_wrapper{
 	padding-top:300px;
-	background:#f9f9f9;
+	/* background:#f9f9f9; */
 }
 .index2_footer_wrapper .footer_first_contact li p, .index2_footer_wrapper .footer_first_contact li a, .index2_footer_wrapper .footer_border_displ ul li a, .index2_footer_wrapper .copyright_left, .index2_footer_wrapper .copyright_left a{
 	color:#707070;
@@ -6521,8 +6521,9 @@ width:100%;
 	width:220px;
 }
 .footer_index3{
-	background:#fff;
-	padding-top:0;
+	
+	padding-top:80px;
+	padding-bottom: 80px;
 	position:relative;
 }
 .footer_index3 .footer_first_contact li i:before, .footer_index3 .footer ul li a:hover, .footer_index3 ul li a:hover, .footer_index3 ul li a i, .footer_index3 .footer_border_displ ul li a i:before, .footer_index3 .copyright_left a:hover{

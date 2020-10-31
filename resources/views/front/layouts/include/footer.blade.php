@@ -39,31 +39,28 @@
             </div>
             <div class="col-lg-3 col-sm-6 col-12">
                 <div class="footerNav jb_cover footer_border_displ">
-                    <h5>features</h5>
+                    <h5>Linkler</h5>
                     <ul class="nav-widget">
-                        <li><a href="#"><i class="fa fa-square"></i>Job Management & Billing
+                        <li><a href="#"><i class="fa fa-square"></i>Home
                             </a></li>
 
-                        <li><a href="#"><i class="fa fa-square"></i>Time & Materials Tracking
+                        <li><a href="#"><i class="fa fa-square"></i>Is elanlari
                             </a></li>
 
-                        <li><a href="#"><i class="fa fa-square"></i>Standards Compliance
+                        <li><a href="#"><i class="fa fa-square"></i>Vakansiyalar
                             </a></li>
 
-                        <li><a href="#"><i class="fa fa-square"></i>Real Time GPS Tracking
+                        <li><a href="#"><i class="fa fa-square"></i>Blog
                             </a></li>
 
-                        <li><a href="#"><i class="fa fa-square"></i>Client Portal
+                        <li><a href="#"><i class="fa fa-square"></i>Contact
                             </a></li>
-
-                        <li><a href="#"><i class="fa fa-square"></i> Powerful Workflow</a></li>
-
                     </ul>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6 col-12">
                 <div class="footerNav jb_cover footer_border_displ">
-                    <h5>browse</h5>
+                    <h5>En son elanlar</h5>
                     <ul class="nav-widget">
 
                         <li><a href="#"><i class="fa fa-square"></i>Freelancers by Category</a></li>
@@ -73,20 +70,15 @@
                         <li><a href="#"><i class="fa fa-square"></i> Freelancers in UK</a></li>
 
                         <li><a href="#"><i class="fa fa-square"></i> Freelancers in Canada</a></li>
-                        <li><a href="#"><i class="fa fa-square"></i> Freelancers in india</a></li>
+                        <li><a href="#"><i class="fa fa-square"></i> Freelancers in india</a></li >
                         <li><a href="#"><i class="fa fa-square"></i> find jobs</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6 col-12">
                 <div class="footerNav jb_cover footer_border_displ">
-                    <h5>app & integration</h5>
+                    <h5>Dostlarimiz</h5>
                     <ul class="nav-widget">
-                        <li>
-                            <a href="#"><img src="/front/images/ft1.png" alt="img">Xero
-                            </a>
-                        </li>
-
                         <li>
                             <a href="#"><img src="/front/images/ft2.png" alt="img">Reckon
                             </a>
@@ -111,7 +103,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="copyright_left"><i class="fa fa-copyright"></i> 2019 <a href="#"> JB desks. </a> All Rights
+            <div class="copyright_left"><i class="fa fa-copyright"></i> 2020 <a href="#"> JB desks. </a> All Rights
                 Reserved.
             </div>
 
@@ -141,25 +133,3 @@
 
 <!-- footer Wrapper End -->
 <!-- chat box Wrapper start -->
-<div id="chat-circle" class="btn btn-raised circle_index3">
-    <i class="fas fa-comment-alt"></i>
-</div>
-<div class="chat-box chat_box_3">
-    <div class="chat-box-header">
-        ChatBot
-        <span class="chat-box-toggle"><i class="fas fa-times"></i></span>
-    </div>
-    <div class="chat-box-body chat_msg_box22">
-        <div class="chat-box-overlay">
-        </div>
-        <div class="chat-logs">
-
-        </div><!--chat-log -->
-    </div>
-    <div class="chat-input">
-        <form>
-            <input type="text" id="chat-input" placeholder="Send a message..."/>
-            <button type="submit" class="chat-submit" id="chat-submit"><i class="fas fa-paper-plane"></i></button>
-        </form>
-    </div>
-</div>

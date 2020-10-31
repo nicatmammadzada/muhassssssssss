@@ -29,7 +29,7 @@
         <div class="row">
             <div class="col-lg-12 ">
                 <div class="row mt-5">
-                    <div class=" mb-5 col-lg-6 col-md-6 col-sm-12">
+                    <div class=" mb-5 col-lg-4 col-md-4 col-sm-12">
                         <div class="our_blog_content jb_cover">
                             <div class="jb_cover">
                                 <img src="/front/images/blog1.jpg" class="img-responsive" alt="img">
@@ -41,7 +41,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class=" mb-5 col-lg-6 col-md-6 col-sm-12">
+                    <div class=" mb-5 col-lg-4 col-md-4 col-sm-12">
                         <div class="our_blog_content jb_cover">
                             <div class="jb_cover">
                                 <img src="/front/images/blog2.jpg" class="img-responsive" alt="img">
@@ -53,7 +53,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class=" mb-5 col-lg-6 col-md-6 col-sm-12">
+                    <div class=" mb-5 col-lg-4 col-md-4 col-sm-12">
                         <div class="our_blog_content jb_cover">
                             <div class="jb_cover">
                                 <img src="/front/images/blog1.jpg" class="img-responsive" alt="img">
@@ -65,7 +65,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class=" mb-5 col-lg-6 col-md-6 col-sm-12">
+                    <div class=" mb-5 col-lg-4 col-md-4 col-sm-12">
                         <div class="our_blog_content jb_cover">
                             <div class="jb_cover">
                                 <img src="/front/images/blog2.jpg" class="img-responsive" alt="img">
@@ -77,7 +77,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class=" mb-5 col-lg-6 col-md-6 col-sm-12">
+                    <div class=" mb-5 col-lg-4 col-md-4 col-sm-12">
                         <div class="our_blog_content jb_cover">
                             <div class="jb_cover">
                                 <img src="/front/images/blog1.jpg" class="img-responsive" alt="img">
@@ -89,7 +89,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class=" mb-5 col-lg-6 col-md-6 col-sm-12">
+                    <div class=" mb-5 col-lg-4 col-md-4 col-sm-12">
                         <div class="our_blog_content jb_cover">
                             <div class="jb_cover">
                                 <img src="/front/images/blog2.jpg" class="img-responsive" alt="img">
@@ -101,7 +101,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class=" mb-5 col-lg-6 col-md-6 col-sm-12">
+                    <div class=" mb-5 col-lg-4 col-md-4 col-sm-12">
                         <div class="our_blog_content jb_cover">
                             <div class="jb_cover">
                                 <img src="/front/images/blog1.jpg" class="img-responsive" alt="img">
@@ -113,7 +113,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class=" mb-5 col-lg-6 col-md-6 col-sm-12">
+                    <div class=" mb-5 col-lg-4 col-md-4 col-sm-12">
                         <div class="our_blog_content jb_cover">
                             <div class="jb_cover">
                                 <img src="/front/images/blog2.jpg" class="img-responsive" alt="img">
@@ -125,7 +125,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class=" mb-5 col-lg-6 col-md-6 col-sm-12">
+                    <div class=" mb-5 col-lg-4 col-md-4 col-sm-12">
                         <div class="our_blog_content jb_cover">
                             <div class="jb_cover">
                                 <img src="/front/images/blog1.jpg" class="img-responsive" alt="img">
@@ -137,7 +137,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class=" mb-5 col-lg-6 col-md-6 col-sm-12">
+                    <div class=" mb-5 col-lg-4 col-md-4 col-sm-12">
                         <div class="our_blog_content jb_cover">
                             <div class="jb_cover">
                                 <img src="/front/images/blog2.jpg" class="img-responsive" alt="img">
