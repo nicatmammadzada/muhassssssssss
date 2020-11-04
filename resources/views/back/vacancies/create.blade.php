@@ -31,15 +31,13 @@
 
 
                         <div class="panel-body" style="display: block;">
-                            {{--                            <div class="panel-heading">--}}
-                            {{--                                <h5 class="panel-title label label-success"></h5>--}}
-                            {{--                                <div class="heading-elements">--}}
-                            {{--                                    <a href="{{route('admin.product.index',$product->category_id)}}"><span--}}
-                            {{--                                            class="label label-success">KURSLARA QAYIT</span></a>--}}
-                            {{--                                </div>--}}
-                            {{--                            </div>--}}
+                      <div class="panel-heading">
+                       <h5 class="panel-title label label-success"></h5>
+                        <div class="heading-elements">
+                        <a href="{{route('admin.vacancies.index')}}"><span class="label label-success">vakansiyalar qayit</span></a>
+                        </div></div>
 
-                            <form action="{{route('admin.product.store')}}" class="form-horizontal"
+                            <form action="{{route('admin.vacancies.store')}}" class="form-horizontal"
                                   method="Post"
                                   enctype="multipart/form-data">
                                 @csrf
@@ -54,21 +52,27 @@
 
                                                 <div class="col-md-6">
                                                     <div class="form-group has-feedback has-feedback-left">
-                                                        <input type="text" name="name" value="{{old('name')}}" class="form-control input-xlg" placeholder="Rolu" required="required">
+                                                        <input type="text" name="role" value="{{old('role')}}" class="form-control input-xlg" placeholder="Rolu" required="required">
                                                         <div class="form-control-feedback">
                                                             <i class="icon-user"></i>
                                                         </div>
                                                     </div>
 
                                                     <div class="form-group has-feedback has-feedback-left">
-                                                        <input type="text" name="surname" value="{{old('surname')}}" class="form-control input-lg" placeholder="weher">
+                                                        <input type="text" name="city" value="{{old('surname')}}" class="form-control input-lg" placeholder="weher">
                                                         <div class="form-control-feedback">
                                                             <i class="icon-user"></i>
                                                         </div>
                                                     </div>
 
                                                     <div class="form-group has-feedback has-feedback-left">
-                                                        <input type="text"  name="f_name" value="{{old('f_name')}}" class="form-control" placeholder="yas">
+                                                        <input type="text"  name="age" value="{{old('age')}}" class="form-control" placeholder="yas">
+                                                        <div class="form-control-feedback">
+                                                            <i class="icon-user"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group has-feedback has-feedback-left">
+                                                        <input type="text"  name="salary" value="{{old('salary')}}" class="form-control" placeholder="maas">
                                                         <div class="form-control-feedback">
                                                             <i class="icon-user"></i>
                                                         </div>
@@ -80,19 +84,19 @@
 
 
                                                     <div class="form-group has-feedback has-feedback-left">
-                                                        <input type="text" name="surname" value="{{old('phone')}}" class="form-control input-lg" placeholder="Telefon">
+                                                        <input type="text" name="phone" value="{{old('phone')}}" class="form-control input-lg" placeholder="Telefon">
                                                         <div class="form-control-feedback">
                                                             <i class="icon-phone"></i>
                                                         </div>
                                                     </div>
                                                     <div class="form-group has-feedback has-feedback-left">
-                                                        <input type="text" name="name" value="{{old('city')}}" class="form-control input-xlg" placeholder="email" required="required">
+                                                        <input type="email" name="email" value="{{old('city')}}" class="form-control input-xlg" placeholder="email" required="required">
                                                         <div class="form-control-feedback">
                                                             <i class=" icon-car2"></i>
                                                         </div>
                                                     </div>
                                                     <div class="form-group has-feedback has-feedback-left">
-                                                        <input type="text"  name="f_name" value="{{old('adress')}}" class="form-control" placeholder="elaqeder wexs">
+                                                        <input type="text"  name="employer" value="{{old('employer')}}" class="form-control" placeholder="elaqeder wexs">
                                                         <div class="form-control-feedback">
                                                             <i class=" icon-location4"></i>
                                                         </div>
@@ -102,15 +106,15 @@
                                                 </div>
 
                                                 <div style="margin-top: 15px" class=" col-md-12">
-                                                    <div class="form-group has-feedback has-feedback-left">
+                                                    <!-- <div class="form-group has-feedback has-feedback-left">
                                                         <input type="text" name="name" value="{{old('email')}}" class="form-control input-xlg" placeholder="Email" required="required">
                                                         <div class="form-control-feedback">
                                                             <i class=" icon-envelop"></i>
                                                         </div>
                                                     </div>
-                                                   
+                                                    -->
                                                     <div class="form-group has-feedback has-feedback-left">
-                                                        <input type="text" name="name" value="{{old('email')}}" class="form-control input-xlg" placeholder="company" required="required">
+                                                        <input type="text" name="company" value="{{old('company')}}" class="form-control input-xlg" placeholder="company" required="required">
                                                         <div class="form-control-feedback">
                                                             <i class=" icon-envelop"></i>
                                                         </div>
@@ -157,12 +161,13 @@
                                                 <div style="margin-top: 15px" class=" col-md-12">
 
                                                     <div class="form-group has-feedback has-feedback-left">
-                                                        <select  class="form-control" data-placeholder="Dərəcə..." >
+                                                        <select name="experience_year"  class="form-control" data-placeholder="Dərəcə..." >
                                                             <optgroup >
-                                                                <option value="chrome" selected="selected">Təcrübə Müddəti</option>
-                                                                <option value="firefox">Yoxdur</option>
-                                                                <option value="firefox" >1 ildən az</option>
-                                                                <option value="firefox" >3 ildən çox</option>
+                                                                <option value="muddet" selected="selected">Təcrübə Müddəti</option>
+                                                                <option value="yoxdur">Yoxdur</option>
+                                                                <option value="1 ilden az" >1 ildən az</option>
+                                                                <option value="1-3 il" >1 -3 il</option>
+                                                                <option value="3 ilden cox" >3 ildən çox</option>
 
                                                             </optgroup>
                                                         </select>
@@ -173,7 +178,7 @@
 
                                                     <div class="form-group  has-feedback has-feedback-left">
 
-                                                        <input class="form-control" type="text" placeholder="is haqqinda" name="education">
+                                                        <input class="form-control" type="text" placeholder="is haqqinda" name="about_work">
                                                         <div class="form-control-feedback">
                                                             <i class="  icon-briefcase3"></i>
                                                         </div>
@@ -197,14 +202,16 @@
 
 
                                                     <div class="form-group  has-feedback has-feedback-left">
-                                                        <textarea rows="5" cols="5" class="form-control" placeholder="telebler"></textarea>
+                                                        <textarea name="requriment" rows="5" cols="5" class="form-control" placeholder="telebler"></textarea>
                                                         </textarea>
                                                         <div class="form-control-feedback">
                                                             <i class="   icon-sphere"></i>
                                                         </div>
 
                                                     </div>
-
+                                                    <div class="text-right">
+                            <button type="submit" class="btn btn-primary">Əlavə et <i class="icon-arrow-right14 position-right"></i></button>
+                        </div>
                                                    
                                                 </div>
 

@@ -30,8 +30,10 @@ Route::group(['namespace' => 'front'], function () {
     Route::get('/test', 'HomeController@test')->name('test');
     Route::get('/vacancies-list', 'CVController@index')->name('vacancies-list');
     Route::get('/cv-create', 'CVController@create')->name('cv-create');
+    Route::post('/cv-store', 'CVController@store')->name('cv.store');
     Route::get('/job-list', 'JobController@index')->name('job-list');
     Route::get('/job-create', 'JobController@create')->name('job-create');
+    Route::post('/job-store', 'JobController@store')->name('job.store');
     Route::get('/contact', 'PageController@contact')->name('contact');
     Route::get('/blogDetail', 'PageController@blogDetail')->name('blog.detail');
     Route::get('/blog', 'PageController@blog')->name('blog.index');
@@ -266,7 +268,7 @@ Route::group(['prefix' => 'admin', 'namespace' => 'back'], function () {
             Route::post('/update/{id}', 'CvController@update')->name('update');
             Route::get('/show/{uid}', 'CvController@show')->name('show');
             Route::get('/create', 'CvController@create')->name('create');
-            Route::post('/store/{id}', 'CvController@store')->name('store');
+            Route::post('/store', 'CvController@store')->name('store');
             Route::get('/remove/{id}', 'CvController@remove')->name('remove');
 
         });
@@ -276,7 +278,8 @@ Route::group(['prefix' => 'admin', 'namespace' => 'back'], function () {
             Route::post('/update/{id}', 'VacanciesController@update')->name('update');
             Route::get('/show/{uid}', 'VacanciesController@show')->name('show');
             Route::get('/create', 'VacanciesController@create')->name('create');
-            Route::post('/store/{id}', 'VacanciesController@store')->name('store');
+            Route::post('/store', 'VacanciesController@store')->name('store');
+            Route::get('/confirm/{id}', 'VacanciesController@confirm')->name('confirm');
             Route::get('/remove/{id}', 'VacanciesController@remove')->name('remove');
 
         });

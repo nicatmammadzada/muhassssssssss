@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\back;
 
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\Image;
 use App\Models\CategoryPost;
 use App\Models\CV;
 use App\Models\OrderList;
@@ -32,12 +33,22 @@ class CvController extends Controller
 
     public function create()
     {
+        
         return view('back.cv.create');
 
     }
     public function store(Request $request)
     {
-        dd($request);
+        
+        $this->validate(request(), [
+           
+            'email' => 'required|email',
+            'role' => 'required'
+            
+           // 'photo' => 'mimes:jpeg,png,jpg,gif,svg,webp|max:500',
+        ]);
+        
+           
         return view('back.cv.create');
 
     }

@@ -9,11 +9,12 @@ class Vacancies extends Model
 
     protected $table = 'vacancies';
     public $timestamps = true;
-    protected $fillable = ['name', 'surname', 'age', 'adress', 'ntl', 'aile', 'phone', 'email', 'photo', 'langs', 'experience','education'];
+    protected $fillable = ['name', 'surname','role', 'age', 'adress', 'employer', 'salary','salary_min','salary_max', 'phone', 'email', 'photo', 'langs', 'experience','education','exprerience_year','city','company','requriment','about_work','unique_id'];
 
 
     public function vacancies_updated_at()
     {
+
         $date = \Carbon\Carbon::parse($this->created_at);
         return $date->isoFormat('MMM D YYYY');
     }

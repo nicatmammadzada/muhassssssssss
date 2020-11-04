@@ -55,7 +55,15 @@ Author: webstrot
 <!-- chat box Wrapper end -->
 <!--custom js files-->
 @include('front.layouts.include.foot')
+<script>
+    setTimeout(function () {
+        $('.msj').slideUp(500);
+    },5000)
+</script>
+
+
 @yield('foot')
+
 <!-- custom js-->
 </body>
 

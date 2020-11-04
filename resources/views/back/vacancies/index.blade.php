@@ -26,7 +26,7 @@
             <thead>
             <tr>
                 <th>No</th>
-                <th>Company</th>
+                <th>Tesdiqle</th>
                 <th>Employee</th>
                 <th>City</th>
                 <th>phone</th>
@@ -37,7 +37,7 @@
                 <th>aile veziyyeti</th>
                 <th>Vetendasliq</th>
 
-{{--                <th class="text-center">Düzəlişlər</th>--}}
+                <th class="text-center">Düzəlişlər</th>
             </tr>
             </thead>
             <tbody>
@@ -47,17 +47,27 @@
                     <tr {{session()->has('id') &&  $item->id==session('id') ? 'style=background:#38d28f;' : ''}} >
                         <td>{{++$key}}</td>
 
-                        <td><img src="{{asset('uploads/vacancies/').'/'.$item->photo}}" style="width: 100px;height: 100px; object-fit: contain" alt=""></td>
-                        <td>{{$item->name}},{{$item->surname}}</td>
-                        <td>{{$item->age}}</td>
+                        <td>
+
+                                <a href="{{route('admin.vacancies.confirm',$item->id)}}">
+                                    <i class="fa fa-check" aria-hidden="true">  </i>
+                                </a>
+
+                            <i class="fa fa-pencil" aria-hidden="true"></i>
+                            <i onclick='checkDeleteConfrim("{{route('admin.vacancies.remove',$item->id)}}")' class="fa fa-trash" aria-hidden="true"></i>
+
+
+                        </td>
+                        <td>{{$item->role}}</td>
                         <td>{{$item->email}}</td>
+                        <td>{{$item->salary}}</td>
                         <td>{{$item->adress}}</td>
                         <td>{{$item->education}}</td>
-                        <td>{{$item->experience}}</td>
+                        <td>{{$item->experience_year}}</td>
                         <td>{{$item->langs}}</td>
 
-                        <td>{{$item->aile}}</td>
-                        <td>{{$item->ntl}}</td>
+                        <td>{{$item->city}}</td>
+                        <td>{{$item->phone}}</td>
 
 
 {{--                    <td class="text-center">--}}
@@ -76,8 +86,7 @@
 {{--                                        <a onclick='checkDeleteConfrim("{{route('admin.product.destroy',$item->id)}}")'><i--}}
 {{--                                                class="icon-database-remove"></i> Sil</a></li>--}}
 {{--                                </ul>--}}
-
-
+                        otagin videosun atacaqdin mene)(((((((((((((((((((((((((((( indi? tamam ama men danissaam ayib oolacaq))tamam kompu bagliyim yigiram baxda)get gellem)))))))))))
 {{--                            </li>--}}
 {{--                        </ul>--}}
 {{--                    </td>--}}

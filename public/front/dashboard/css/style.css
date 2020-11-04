@@ -1,5 +1,6 @@
 /*-------------------------------------
 	Author: JB desks
+
 	Copyright © 2019-20
 	Developed By: Webstrot
 ---------------------------------------
@@ -24,6 +25,12 @@
 /*--------------
 1.Theme default CSS
 --------------------------*/
+.recent_img img{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+
+}
 body, html {
 	font-family: 'Lato';
 	font-size: 16px;
