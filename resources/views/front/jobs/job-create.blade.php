@@ -56,9 +56,6 @@
                                                 <input type="text" name="role" placeholder="role">
                                             </div>
                                         </div>
-                                        di
-                                        ha
-                                        bu modelde biz yazmali deilikde colllari he? bu formada olanda yazirix sebebini sora izah ederem  ora yazmamisan rolu yoo he yaz bid
                                         <div class="col-lg-12 col-md-6 col-sm-6 col-6">
                                             <div class="contect_form3">
                                                 <label>Seher</label>
