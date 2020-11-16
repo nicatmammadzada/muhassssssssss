@@ -20,18 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b617b2e-aa37-4224-ad33-9a6356c66e26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Models/Type.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/front/js/vue.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/front/render/get-vacancies.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/back/VacanciesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/back/VacanciesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/front/JobController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/front/JobController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Vacancies.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Vacancies.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/front/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/front/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/back/vacancies/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/back/vacancies/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/jobs/job-create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/jobs/job-create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/jobs/job-list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/jobs/job-list.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +209,7 @@
       <workItem from="1605297970780" duration="2127000" />
       <workItem from="1605336446124" duration="1183000" />
       <workItem from="1605462452003" duration="8543000" />
-      <workItem from="1605519162699" duration="8183000" />
+      <workItem from="1605519162699" duration="8764000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1604129551473</created>
@@ -243,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604129725856</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test">
+      <created>1605533804767</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605533804767</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,10 +272,11 @@
     </state>
     <state x="371" y="100" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.689@0.0.1280.689" timestamp="1604433643327" />
     <state x="396" y="106" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1604583853609" />
-    <state x="1647" y="0" key="CommitChangelistDialog2" timestamp="1604130115366">
-      <screen x="1366" y="0" width="1366" height="728" />
+    <state x="1662" y="0" key="CommitChangelistDialog2" timestamp="1605533802938">
+      <screen x="1366" y="0" width="1440" height="860" />
     </state>
     <state x="1647" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1604130115366" />
+    <state x="1662" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1440.860@1366.0.1440.860" timestamp="1605533802938" />
     <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1604428664586">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
