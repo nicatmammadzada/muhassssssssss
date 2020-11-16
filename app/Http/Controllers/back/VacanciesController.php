@@ -45,7 +45,7 @@ class VacanciesController extends Controller
             'city' => 'required'
            // 'photo' => 'mimes:jpeg,png,jpg,gif,svg,webp|max:500',
         ]);
-        dd($request);
+
         return view('back.cv.create');
 
     }
@@ -55,7 +55,7 @@ class VacanciesController extends Controller
         $items = Vacancies::findOrFail($id);
         $items->is_active=1;
         $items->save();
-        return redirect()->back()->with('mesaj','elan tesdiq edildi');
+        return redirect()->back()->with('id',$id)->with('mesaj','elan tesdiq edildi');
     }
 
     public function remove($id)

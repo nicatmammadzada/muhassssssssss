@@ -28,12 +28,28 @@ Route::group(['namespace' => 'front'], function () {
     Route::get('/faq', 'HomeController@faq')->name('faq');
 
     Route::get('/test', 'HomeController@test')->name('test');
+
+
     Route::get('/vacancies-list', 'CVController@index')->name('vacancies-list');
     Route::get('/cv-create', 'CVController@create')->name('cv-create');
     Route::post('/cv-store', 'CVController@store')->name('cv.store');
-    Route::get('/job-list', 'JobController@index')->name('job-list');
-    Route::get('/job-create', 'JobController@create')->name('job-create');
-    Route::post('/job-store', 'JobController@store')->name('job.store');
+
+
+
+
+    /*is elanlari*/
+    Route::group(['prefix' => 'is-elanlari'], function () {
+        Route::get('/', 'JobController@index')->name('job-list');
+        Route::get('/elan-yerlesdir', 'JobController@create')->name('job-create');
+        Route::post('/store', 'JobController@store')->name('job.store');
+        Route::post('/apply', 'JobController@apply')->name('job.apply');
+        Route::get('/type', 'JobController@getType')->name('job.type');
+    });
+
+
+
+
+
     Route::get('/contact', 'PageController@contact')->name('contact');
     Route::get('/blogDetail', 'PageController@blogDetail')->name('blog.detail');
     Route::get('/blog', 'PageController@blog')->name('blog.index');

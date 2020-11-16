@@ -113,7 +113,7 @@
                                         <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                                             <div class="contect_form3">
                                                 <label>max maas</label>
-                                                <input type="number" name="salary"_max placeholder="max maas">
+                                                <input type="number" name="salary_max" placeholder="max maas">
                                             </div>
                                         </div>
 

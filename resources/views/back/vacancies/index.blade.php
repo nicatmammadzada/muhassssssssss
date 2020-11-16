@@ -48,13 +48,15 @@
                         <td>{{++$key}}</td>
 
                         <td>
-
+                            @if($item->is_active!=1)
                                 <a href="{{route('admin.vacancies.confirm',$item->id)}}">
-                                    <i class="fa fa-check" aria-hidden="true">  </i>
+                                    <i class="fa fa-check" aria-hidden="true"> </i>
                                 </a>
+                            @endif
 
                             <i class="fa fa-pencil" aria-hidden="true"></i>
-                            <i onclick='checkDeleteConfrim("{{route('admin.vacancies.remove',$item->id)}}")' class="fa fa-trash" aria-hidden="true"></i>
+                            <i onclick='checkDeleteConfrim("{{route('admin.vacancies.remove',$item->id)}}")'
+                               class="fa fa-trash" aria-hidden="true"></i>
 
 
                         </td>
@@ -70,26 +72,26 @@
                         <td>{{$item->phone}}</td>
 
 
-{{--                    <td class="text-center">--}}
-{{--                        <ul class="icons-list">--}}
-{{--                            <li class="dropdown">--}}
-{{--                                <a class="dropdown-toggle" data-toggle="dropdown">--}}
-{{--                                    <i class="icon-menu9"></i>--}}
-{{--                                </a>--}}
+                        {{--                    <td class="text-center">--}}
+                        {{--                        <ul class="icons-list">--}}
+                        {{--                            <li class="dropdown">--}}
+                        {{--                                <a class="dropdown-toggle" data-toggle="dropdown">--}}
+                        {{--                                    <i class="icon-menu9"></i>--}}
+                        {{--                                </a>--}}
 
-{{--                                <ul class="dropdown-menu dropdown-menu-right">--}}
-{{--                                    <li><a href="{{route('admin.product.edit',$item->id)}}"><i--}}
-{{--                                                class="icon-database-edit2"></i> Yenilə</a></li>--}}
-{{--                                    <li><a href="{{route('admin.product.promo',$item->id)}}"><i--}}
-{{--                                                class="icon-database-edit2"></i> Promokod elave et</a></li>--}}
-{{--                                    <li>--}}
-{{--                                        <a onclick='checkDeleteConfrim("{{route('admin.product.destroy',$item->id)}}")'><i--}}
-{{--                                                class="icon-database-remove"></i> Sil</a></li>--}}
-{{--                                </ul>--}}
-                        otagin videosun atacaqdin mene)(((((((((((((((((((((((((((( indi? tamam ama men danissaam ayib oolacaq))tamam kompu bagliyim yigiram baxda)get gellem)))))))))))
-{{--                            </li>--}}
-{{--                        </ul>--}}
-{{--                    </td>--}}
+                        {{--                                <ul class="dropdown-menu dropdown-menu-right">--}}
+                        {{--                                    <li><a href="{{route('admin.product.edit',$item->id)}}"><i--}}
+                        {{--                                                class="icon-database-edit2"></i> Yenilə</a></li>--}}
+                        {{--                                    <li><a href="{{route('admin.product.promo',$item->id)}}"><i--}}
+                        {{--                                                class="icon-database-edit2"></i> Promokod elave et</a></li>--}}
+                        {{--                                    <li>--}}
+                        {{--                                        <a onclick='checkDeleteConfrim("{{route('admin.product.destroy',$item->id)}}")'><i--}}
+                        {{--                                                class="icon-database-remove"></i> Sil</a></li>--}}
+                        {{--                                </ul>--}}
+
+                        {{--                            </li>--}}
+                        {{--                        </ul>--}}
+                        {{--                    </td>--}}
                     </tr>
 
                 @endforeach
