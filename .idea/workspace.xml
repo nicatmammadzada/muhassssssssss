@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b617b2e-aa37-4224-ad33-9a6356c66e26" name="Default Changelist" comment="" />
+    <list default="true" id="2b617b2e-aa37-4224-ad33-9a6356c66e26" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -208,7 +210,7 @@
       <workItem from="1605297970780" duration="2127000" />
       <workItem from="1605336446124" duration="1183000" />
       <workItem from="1605462452003" duration="8543000" />
-      <workItem from="1605519162699" duration="8781000" />
+      <workItem from="1605519162699" duration="8856000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1604129551473</created>
@@ -245,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605534363960</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="testxcgsdfg">
+      <created>1605534392528</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605534392528</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,8 +274,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/muhassssssssss" />
+    </ignored-roots>
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="testxcgsdfg" />
+    <option name="LAST_COMMIT_MESSAGE" value="testxcgsdfg" />
   </component>
   <component name="WindowStateProjectService">
     <state x="123" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603652906001">
@@ -278,11 +291,11 @@
     </state>
     <state x="371" y="100" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.689@0.0.1280.689" timestamp="1604433643327" />
     <state x="396" y="106" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1604583853609" />
-    <state x="1662" y="0" key="CommitChangelistDialog2" timestamp="1605534361154">
+    <state x="1662" y="0" key="CommitChangelistDialog2" timestamp="1605534391180">
       <screen x="1366" y="0" width="1440" height="860" />
     </state>
     <state x="1647" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1604130115366" />
-    <state x="1662" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1440.860@1366.0.1440.860" timestamp="1605534361154" />
+    <state x="1662" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1440.860@1366.0.1440.860" timestamp="1605534391180" />
     <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1604428664586">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -308,10 +321,10 @@
     </state>
     <state x="1883" y="288" key="NewPhpFileDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1603739661261" />
     <state x="1911" y="340" key="NewPhpFileDialog/0.0.1366.728/1366.0.1440.860@1366.0.1440.860" timestamp="1605530168027" />
-    <state x="1587" y="73" key="SettingsEditor" timestamp="1605534375065">
+    <state x="1587" y="73" key="SettingsEditor" timestamp="1605534450904">
       <screen x="1366" y="0" width="1440" height="860" />
     </state>
-    <state x="1587" y="73" key="SettingsEditor/0.0.1366.728/1366.0.1440.860@1366.0.1440.860" timestamp="1605534375065" />
+    <state x="1587" y="73" key="SettingsEditor/0.0.1366.728/1366.0.1440.860@1366.0.1440.860" timestamp="1605534450904" />
     <state x="2125" y="378" key="com.intellij.ide.util.TipDialog" timestamp="1604129850940">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
